@@ -20,3 +20,7 @@ else if(condicion == "3"){
 	promedio = (numero1+numero2)/2
 	alert("El promedio es: " + promedio)
 }
+else if(condicion == "4"){
+	resta = (numero1-numero2)
+	alert = ("El resultado de la suma es: " + resta)
+}
