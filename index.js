@@ -1,13 +1,13 @@
+alert("senfdjfj")
 
-numero1 = document.getElementById("txt1").value
-umero2 = document.getElementById("txt2").value
+document.getElementById("send").addEventListener('click', main)
+condicion = prompt ("¿Qué desea hacer?")
 
-ondicion = prompt ("¿Qué desea hacer?")
+numero1 = 0
+numero2 = 0
 
-f (condicion = sumar){
-  suma1 = (numero1 + numero2)
-	alert ("El resultado de la suma es: " + suma1)
-}
-else {
-	condicion2 = prompt ("¿Qué desea hacer?")
+function main()
+{
+	numero1 = document.getElementById("txt1").value
+	numero2 = document.getElementById("txt2").value
 }
