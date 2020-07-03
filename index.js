@@ -8,19 +8,15 @@ if (condicion = sumar){
   	suma1 = (numero1 + numero2)
 	alert ("El resultado de la suma es: " + suma1)
 }
-else{
-	condicion2 = prompt ("¿Qué desea hacer?")
-}if(condicion2 = multiplicar){
+else if(condicion2 = multiplicar){
 	multiplica = (numero1*numero2)
 	alert ("El resultado de la multiplicación es: " + multiplica)
-}else{ 
-	condicion3 = prompt ("¿Qué desea hacer?")
-}if(condicion3 = dividir){
+}
+els if(condicion3 = dividir){
 	dividir = (numero1/numero2)
 	alert ("El resultado de la divición es: " + dividir)
-}else{
-	condicion4 = prompt ("¿Qué desea hacer?")
-}if(condicion4 = promedio){
+}
+else f(condicion4 = promedio){
 	promedio = (numero1+numero2)/2
 	alert("El promedio es: " + promedio)
 }
