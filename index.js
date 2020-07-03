@@ -1,22 +1,22 @@
 
 numero1 = document.getElementById("txt1").value
-umero2 = document.getElementById("txt2").value
+numero2 = document.getElementById("txt2").value
 
 condicion = prompt ("¿Qué desea hacer?")
 
-if (condicion = sumar){
+if(condicion = "sumar"){
   	suma1 = (numero1 + numero2)
 	alert ("El resultado de la suma es: " + suma1)
 }
-else if(condicion2 = multiplicar){
+else if(condicion = "multiplicar"){
 	multiplica = (numero1*numero2)
 	alert ("El resultado de la multiplicación es: " + multiplica)
 }
-els if(condicion3 = dividir){
+else if(condicion = "dividir"){
 	dividir = (numero1/numero2)
 	alert ("El resultado de la divición es: " + dividir)
 }
-else f(condicion4 = promedio){
+else if(condicion = "promedio"){
 	promedio = (numero1+numero2)/2
 	alert("El promedio es: " + promedio)
 }
