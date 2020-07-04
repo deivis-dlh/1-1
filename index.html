@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculadora</title>
 </head>
 <body>
 
 	<h1>Calculadora</h1>
-	<input type="text" id="txt1" /><input type="text" id="txt2" />
-	<br />
-	<button id="send" >Calcular</button>
 
+	<input type="text" id="txt1" />, <input type="text" id="txt2" />
+	<br />
+
+	<select name="cars" id="cars" multiple>
+		<option value="0">Sumar</option>
+		<option value="1">multiplicar</option>
+		<option value="2">dividir</option>
+		<option value="3">promedio</option>
+		<option value="4">resta</option>
+	</select>
+	<input type="button" id="send" value="Calcular" />
+
+	<p>El resultado de la operación es: <span id="res"></span></p>
 	<script src="index.js"></script>
 
 </body>
